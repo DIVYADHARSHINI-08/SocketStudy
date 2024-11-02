@@ -56,6 +56,8 @@ Socket programming finds applications in various domains, including web developm
 ## PROGRAM
 ## CLIENT :
 ```
+Dveloped by: DIVYA DHARSHINI R
+Reg no: 212223040042
 import socket
 from datetime import datetime
 s=socket.socket()
@@ -70,6 +72,10 @@ if ack:
  print(ack)
 c.close()
 ```
+## OUTPUT 
+## CLIENT :
+![Screenshot 2024-09-11 153512](https://github.com/user-attachments/assets/b4c36f7d-e24f-4a64-9b46-b37ee5899145)
+
 ## SERVER :
 ```
 import socket
@@ -79,11 +85,7 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
-## OUTPUT 
-## CLIENT :
-![Screenshot 2024-09-11 153512](https://github.com/user-attachments/assets/b4c36f7d-e24f-4a64-9b46-b37ee5899145)
-
-
+## OUTPUT
 ## SERVER :
 ![Screenshot 2024-09-11 154115](https://github.com/user-attachments/assets/e7742733-5e79-4290-946d-64c355548c1b)
 
