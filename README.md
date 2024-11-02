@@ -56,7 +56,7 @@ Socket programming finds applications in various domains, including web developm
 ## PROGRAM
 ## CLIENT :
 ```
-Dveloped by: DIVYA DHARSHINI R
+Developed by: DIVYA DHARSHINI R
 Reg no: 212223040042
 import socket
 from datetime import datetime
